@@ -1,0 +1,7 @@
+{
+  "name": "Yvsim.InspectorGroups.Samples",
+  "rootNamespace": "Yvsim.InspectorGroups.Samples",
+  "references": [
+    "Yvsim.InspectorGroups"
+  ]
+}

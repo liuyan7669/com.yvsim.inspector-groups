@@ -1,0 +1,14 @@
+{
+  "name": "Yvsim.InspectorGroups.Editor.Tests",
+  "references": [
+    "Yvsim.InspectorGroups",
+    "Yvsim.InspectorGroups.Editor"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "optionalUnityReferences": [
+    "TestAssemblies"
+  ],
+  "autoReferenced": false
+}

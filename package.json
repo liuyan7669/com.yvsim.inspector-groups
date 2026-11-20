@@ -1,0 +1,35 @@
+{
+  "name": "com.yvsim.inspector-groups",
+  "version": "1.0.0",
+  "displayName": "Inspector Groups",
+  "description": "通过 C# 特性组织和增强 Unity Inspector，适合制作清晰的组件配置面板、只读运行状态和编辑器业务操作入口。\n\n主要功能：\n1. 折叠分组、嵌套分组、组结束标记及按对象独立保存折叠状态，提供普通与框架两种样式。\n2. 标题、提示框、中文标签、颜色和居中文字分隔线；按类显式隐藏 Script 引用行。\n3. 条件显示/隐藏、条件启用、只读显示和必填提醒，支持嵌套对象及集合。\n4. 下拉选项、Tag/Layer/场景选择、枚举掩码、双端滑块和可拖动进度条。\n5. 方法按钮、字段/属性文本显示、ScriptableObject 内联编辑与资源预览，并提供自定义 Inspector 接入接口。\n\n使用说明：Runtime 仅保留特性和内容声明，绘制位于 Editor，不依赖其他包。已有自定义编辑器需按文档接入；安装不会自动隐藏全部组件的 Script，也不改变字段的序列化数据。附带组合特性演示。",
+  "unity": "2021.3",
+  "author": {
+    "name": "Yvsim"
+  },
+  "license": "MIT",
+  "keywords": [
+    "inspector",
+    "attributes",
+    "editor",
+    "foldout",
+    "groups"
+  ],
+  "samples": [
+    {
+      "displayName": "Inspector Demo",
+      "description": "将导入的 Tests 组件添加到场景物体，逐项检查折叠/嵌套分组、装饰与选择器、条件显示、只读/必填、按钮、进度条、内联 ScriptableObject 和特性叠加；这是交互演示组件，不是自动化测试。",
+      "path": "Samples~/Inspector Demo"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/liuyan7669/com.yvsim.inspector-groups.git"
+  },
+  "documentationUrl": "https://github.com/liuyan7669/com.yvsim.inspector-groups#readme",
+  "changelogUrl": "https://github.com/liuyan7669/com.yvsim.inspector-groups/blob/main/CHANGELOG.md",
+  "bugs": {
+    "url": "https://github.com/liuyan7669/com.yvsim.inspector-groups/issues"
+  },
+  "licensesUrl": "https://github.com/liuyan7669/com.yvsim.inspector-groups/blob/main/LICENSE.md"
+}

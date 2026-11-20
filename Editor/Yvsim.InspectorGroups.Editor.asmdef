@@ -1,0 +1,10 @@
+{
+  "name": "Yvsim.InspectorGroups.Editor",
+  "rootNamespace": "Yvsim.InspectorGroups.Editor",
+  "references": [
+    "Yvsim.InspectorGroups"
+  ],
+  "includePlatforms": [
+    "Editor"
+  ]
+}
